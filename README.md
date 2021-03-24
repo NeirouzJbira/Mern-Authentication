@@ -1,13 +1,20 @@
 # Mern-Authentication
 
 Minimal full-stack MERN app with authentication using passport and JWTs.
+![Final App](https://i.postimg.cc/tybZb8dL/final-MERNAuth.gif)
 
 This project uses the following technologies:
--React and React Router for frontend
-- Express and Node for the backend
-- MongoDB for the database
-- Redux for state management between React components
 
+- [React](https://reactjs.org) and [React Router](https://reacttraining.com/react-router/) for frontend
+- [Express](http://expressjs.com/) and [Node](https://nodejs.org/en/) for the backend
+- [MongoDB](https://www.mongodb.com/) for the database
+- [Redux](https://redux.js.org/basics/usagewithreact) for state management between React components
+
+## Medium Series
+
+- [Build a Login/Auth App with the MERN Stack — Part 1 (Backend)](https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669)
+- [Build a Login/Auth App with the MERN Stack — Part 2 (Frontend & Redux Setup)](https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-2-frontend-6eac4e38ee82)
+- [Build a Login/Auth App with the MERN Stack — Part 3 (Linking Redux with React Components)](https://blog.bitsrc.io/build-a-login-auth-app-with-the-mern-stack-part-3-react-components-88190f8db718)
 
 
 ## Configuration
@@ -33,4 +40,4 @@ npm run dev
 // Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
 
-
+For deploying to Heroku, please refer to [this](https://www.youtube.com/watch?v=71wSzpLyW9k) helpful video by TraversyMedia.
